@@ -1,4 +1,5 @@
-import pandas as pd import matplotlib.pyplot as pl ch='Y' 
+import pandas as pd 
+import matplotlib.pyplot as pl ch='Y' 
 while ch=='Y': 
   print('1.read CSV File') 
   print('2.show all Records') 
