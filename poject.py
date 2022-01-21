@@ -1,7 +1,7 @@
-import pandas as pd 
+import pandas as pd
 import matplotlib.pyplot as pl ch='Y' 
 while ch=='Y': 
-  print('1.read CSV File') 
+  print('1.read TXT File') 
   print('2.show all Records') 
   print('3.show 1st 3 Records') 
   print('4.show last 3 Records') 
