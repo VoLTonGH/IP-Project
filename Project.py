@@ -51,6 +51,7 @@ while ch=='Y':
       
       if int(df.loc[df['Account_number']==x,'Balance']) >= y :
         df.loc[df['Account_number']==x,'Balance'] = df.loc[df['Account_number']==x,'Balance'] - y
+        print('Withdrawal Successful')
       else:
         print('\nInsufficient Balance')
   
