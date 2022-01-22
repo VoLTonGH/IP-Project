@@ -42,6 +42,7 @@ while ch=='Y':
       x=int(input('Enter the Account Number : '))
       y=int(input('Enter the Amount : '))
       df.loc[df['Account_number']==x,'Balance'] = df.loc[df['Account_number']==x,'Balance'] + y
+      print('\n')
       print("Deposited Successfully")
       df['Balance'] = df['Balance'].replace([],'new value')
       
@@ -51,6 +52,7 @@ while ch=='Y':
       
       if int(df.loc[df['Account_number']==x,'Balance']) >= y :
         df.loc[df['Account_number']==x,'Balance'] = df.loc[df['Account_number']==x,'Balance'] - y
+        print('\n')
         print('Withdrawal Successful')
       else:
         print('\nInsufficient Balance')
