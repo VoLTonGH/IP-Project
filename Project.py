@@ -62,7 +62,7 @@ while ch=='Y':
     n=input('Enter Name of Account Holder: ')
     m=int(input('Enter Balance: '))
     df=df.append({'Account_number':r,'Name':n,'Balance':m},ignore_index=True)
-    print('Record Added')
+    print('Account Added')
       
   elif choice==3: # Show all Records
     print(df)
@@ -81,7 +81,7 @@ while ch=='Y':
   elif choice==7: # Delete Account
     r=int(input('Enter Account Number to Delete: '))
     df.drop(df.index[df['Account_number']==r],inplace=True)
-    print('Record Deleted')
+    print('Account Deleted')
     
   elif choice==8: # Show Bank Balances using Line Graph
     pl.ylabel('Balance')
