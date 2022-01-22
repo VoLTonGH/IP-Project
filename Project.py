@@ -84,8 +84,8 @@ while ch=='Y':
     print(df.tail(3))
     
   elif choice==6: # Show the Accounts with low balace
-    min=df['Balance'].min()
-    index=df.index[df['Balance']==min].tolist()
+    min=10000 # df['Balance'].min()
+    index=df.index[df['Balance']<=min].tolist()
     print(df.loc[index])
     
   elif choice==7: # Delete Account
