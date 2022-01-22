@@ -20,10 +20,10 @@ while ch=='Y':
   print("\n")
   print("1.Make a Deposit or Withdrawal")
   print('2.Add new Account')
-  print('3.show all Records')
-  print('4.show 1st 3 Records')
-  print('5.show last 3 Records')
-  print('6.Show the Accounts with low balace')  #Balance less than 10k
+  print('3.Show all Records')
+  print('4.Show 1st 3 Records')
+  print('5.Show last 3 Records')
+  print('6.Show the Accounts with Low Balance')  #Balance less than 10k
   print('7.Delete Account')
   print('8.Show Bank Balances using Line Graph')
   print('9.Show Bank Balances using Bar Graph')
@@ -63,6 +63,14 @@ while ch=='Y':
     m=int(input('Enter Balance: '))
     df=df.append({'Account_number':r,'Name':n,'Balance':m},ignore_index=True)
     print('Account Added')
+    print("""
+
+      ████████╗██╗░░██╗░█████╗░███╗░░██╗██╗░░██╗  ██╗░░░██╗░█████╗░██╗░░░██╗
+      ╚══██╔══╝██║░░██║██╔══██╗████╗░██║██║░██╔╝  ╚██╗░██╔╝██╔══██╗██║░░░██║
+      ░░░██║░░░███████║███████║██╔██╗██║█████═╝░  ░╚████╔╝░██║░░██║██║░░░██║
+      ░░░██║░░░██╔══██║██╔══██║██║╚████║██╔═██╗░  ░░╚██╔╝░░██║░░██║██║░░░██║
+      ░░░██║░░░██║░░██║██║░░██║██║░╚███║██║░╚██╗  ░░░██║░░░╚█████╔╝╚██████╔╝
+      ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝  ░░░╚═╝░░░░╚════╝░░╚═════╝░""")
       
   elif choice==3: # Show all Records
     print(df)
