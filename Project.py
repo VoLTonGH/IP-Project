@@ -11,7 +11,7 @@ print("""
       ░╚════╝░╚══════╝╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝  ╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝
       _____________________________________________________________________________________________
       """)
-print("Reading the Bank File...",index=False)
+print("Reading the Bank File...")
 df=pd.read_csv('bank_file.csv') # Read the csv file
 while ch=='Y':
   print('\n')
