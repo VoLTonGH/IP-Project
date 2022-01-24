@@ -1,4 +1,4 @@
-Account_number,Name,Balance
+Account_number,Name,Balance,Phone_Number,Address
 1000,Hecker,49999
 1001,FBI,50000
 1002,Beluga,9000

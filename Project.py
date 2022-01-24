@@ -61,8 +61,10 @@ while ch=='Y':
   elif choice==2: # Add new Account
     r=int(input('Enter Account Number: '))
     n=input('Enter Name of Account Holder: ')
+    o=input('Enter Phone Number: ')
     m=int(input('Enter Balance: '))
-    df=df.append({'Account_number':r,'Name':n,'Balance':m},ignore_index=True)
+    p=input('Enter Address: ')
+    df=df.append({'Account_number':r,'Name':n,'Balance':m,'Phone_Number':o,'Address':p},ignore_index=True)
     print('\n')
     print('Account Added')
     print("""
@@ -90,7 +92,10 @@ while ch=='Y':
     
   elif choice==7: # Delete Account
     r=int(input('Enter Account Number to Delete: '))
-    df.drop(df.index[df['Account_number']==r],inplace=True)
+    indx=df.index[df['Account_number']==r]
+    x=int(input('Enter Phone Number: '))
+    print(indx)
+    df.drop(indx,inplace=True)
     print('\n')
     print('Account Deleted')
     
