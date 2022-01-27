@@ -16,7 +16,7 @@ passwd=input("\n ENTER PASSWORD: ")
 ch='N'
 
 print('\n')
-if usr=='Pablo' and passwd=='69420':
+if usr=='admin' and passwd=='admin':
 	ch='Y'
 	print("==============================================================================================\n")
 	print("LOGIN SUCCESFUL!!!\n")
