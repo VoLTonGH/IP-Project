@@ -4,4 +4,4 @@
 #### Uses python and pandas
 eezy clap
 
-![Volt Photo](https://static.wikia.nocookie.net/youtube/images/7/73/BelugaJrPFP_400x400.jpg/revision/latest/scale-to-width-down/350?cb=20210829100256) 
+![Volt Photo](https://images-ext-1.discordapp.net/external/ILMp0zzsjkTAfe9vdk38yaNhw5cjI8boPg_UnZkWAoQ/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/352367395140009984/fc305b46fb2f9d2acf81035efa3f3960.png?width=676&height=676)
