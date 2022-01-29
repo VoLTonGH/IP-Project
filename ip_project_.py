@@ -18,16 +18,16 @@ def display_dataframe():
 
 def search() :
     d=pd.read_csv('seasons.csv')
-    state=input('enter the state')
-    data=d[d['state']==state]
+    state=input('enter the state: ')
+    data=d.loc[d['state']==state]
     print(data)
     
 def modify():
     d=pd.read_csv('seasons.csv')
-    season=input('enter season')
+    season=input('enter season: ')
     index=d[d['season']==season].index
     #print(d)
-    changeseason=input('enter the changed season')
+    changeseason=input('enter the changed season: ')
     d.at[index,'season']==changeseason
     #print(d)
     display_dataframe()
@@ -35,7 +35,7 @@ def modify():
 
 def delete():
     d=pd.read_csv('seasons.csv')
-    temp=input('enter temperature')
+    temp=input('enter temperature: ')
     indx=d[d['temp']==temp].index
     d1=d.drop(indx)
     d1.to_csv('seasons.csv',index=False)
@@ -119,7 +119,7 @@ while(c=='y'):
     print('14.display_seasons_timeperiod')
     print('15.plotting_line_graph')
 
-    ch=int(input('enter your choice number'))
+    ch=int(input('enter your choice number: '))
 
     if ch==1:
         display_dataframe()
@@ -154,4 +154,4 @@ while(c=='y'):
     else:
         sys.exit()
         
-    c=input('do you want to continue? y or n')
+    c=input('do you want to continue? y or n: ')
