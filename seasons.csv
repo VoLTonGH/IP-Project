@@ -1,0 +1,10 @@
+,sno,seasons,states,temperature(celcius),rainfall(cm),time-period(months)
+0,1,monsoon,kerala,28-32,150-200,march-july
+1,2,summer,rajasthan,33-38,30-40,april-june
+2,3,winter,karnataka,18-32,80-100,september-december
+3,4,spring,himachal pradesh,22-29,100-120,july-september
+4,5,winter,delhi,13-27,75-140,september-october
+5,6,summer,gujarat,30-35,50-75,january-march
+6,7,summer,haryana,28-34,55-110,april-june
+7,8,monsoon,jammu and kashmir,14-30,160-220,november-december
+8,9,spring,maharashtra,25-32,128-196,september-october

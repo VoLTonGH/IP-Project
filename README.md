@@ -1,4 +1,4 @@
-# IP PROJECT FOR VOLT 
+# IP PROJECT FOR DORK
 - Simple Bank Management System
 
 #### Uses python and pandas
